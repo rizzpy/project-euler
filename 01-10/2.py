@@ -10,7 +10,6 @@ even-valued terms.
 f0 = 0
 f1 = 1
 sum = 0
-count = 2
 f_next = 0
 
 while f_next < 4000000:
@@ -19,5 +18,5 @@ while f_next < 4000000:
         sum += f_next
     f0 = f1
     f1 = f_next
-    count+=1
+    
 print(sum)
